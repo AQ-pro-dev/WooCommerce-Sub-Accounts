@@ -1,9 +1,4 @@
 ##  WooCommerce Sub-Accounts
-Contributors: theprodeveloper789
-Tags: woocommerce, subaccounts, sub-account, child account, pet account, family, checkout, qr code
-Requires at least: 5.0
-Tested up to: 6.5
-Requires PHP: 7.2
 
 A WooCommerce plugin that allows users to create sub-accounts (for pets, children, or family) during checkout and attach products to those subaccounts. Includes QR code generation and admin visibility.
 
