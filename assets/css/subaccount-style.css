@@ -1,0 +1,113 @@
+#subaccount-section {
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+#subaccount-section h3 {
+    margin-bottom: 10px;
+}
+
+.subaccount-sublist {
+/*     margin-top: 15px; */
+    padding: 10px;
+/*     background: #fff;
+    border: 1px dashed #ccc; */
+}
+.subaccount-sublist a {
+	color : #ff6b6b !important;
+}
+
+.subaccount-sublist label {
+    display: block;
+    margin-bottom: 5px;
+	text-transform: capitalize;
+    color: #000;
+	display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.subaccount-sublist .add-new-subaccount {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0073aa;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.subaccount-sublist .add-new-subaccount:hover {
+    color: #005177;
+}
+
+.new-subaccount-name {
+    margin-top: 10px;
+}
+
+
+/* Subaccount Modal Styles */
+#subaccountModal.modal {
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+	place-content: center;
+}
+
+#subaccountModal .modal-content {
+    background-color: #fff;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+#subaccountModal .modal-content .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#subaccountModal .modal-content h4 {
+	text-align:center;
+	margin: 20px 0;
+}
+#subaccountModal .modal-content button {
+	
+	background : linear-gradient(90deg, #FF6B6B 0%, #A500CD 93.08%) !important;
+	width: 100%;
+    margin-top: 5%;
+    border: none;
+}
+#subaccountModal .modal-content input{
+	
+	    border-color: #ff6b6b;
+    padding: 9px;
+}
+#subaccountModal .modal-content label {
+	color: #000;
+    margin-bottom: 10px;
+}
+#subaccountModal .modal-content .close:hover,
+#subaccountModal .modal-content .close:focus {
+    color: black;
+    text-decoration: none;
+}
+.woocommerce-order {
+	display: flex;
+	flex-direction: column;
+}
+.woocommerce-subaccount-info {
+	order: -1 !important;
+}
