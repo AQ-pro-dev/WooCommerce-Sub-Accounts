@@ -48,9 +48,8 @@ Currently, creation is only supported at checkout. You can extend it using the p
 = What happens if the sub-account email already exists? =
 The plugin automatically generates unique emails using the main email + suffix pattern.
 
-## Changelog ==
+## Changelog
 
-= 1.2.0 =
 * Added QR code SVG export + AJAX saving
 * Admin: Sub-account visibility on user profile
 * Thank You page and My Account page improvements
